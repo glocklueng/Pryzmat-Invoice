@@ -16,7 +16,7 @@ namespace WindowsFormsApplication1
             string kwota = null;
             string WorkingString = null;
 
-            string wogroszy = toDouble.Substring(0, toDouble.IndexOf(',', 0));
+            string wogroszy = toDouble.Substring(0, toDouble.IndexOf('.', 0));
             string grosze = "";
             grosze += toDouble[toDouble.IndexOf(',') + 1];
             grosze += toDouble[toDouble.IndexOf(',') + 2];

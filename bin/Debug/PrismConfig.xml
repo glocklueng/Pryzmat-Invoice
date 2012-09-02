@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
 <prismconfig>
   <gov>
     <tax>
@@ -15,7 +15,7 @@
       <zip>58-560</zip>
     </company>
     <server>
-      <servername>PS</servername>
+      <servername>PLOTER\SQLEXPRESS</servername>
     </server>
   </app>
 </prismconfig>

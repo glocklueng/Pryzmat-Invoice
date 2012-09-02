@@ -55,63 +55,67 @@ namespace WindowsFormsApplication1
     {
       InitializeComponent();
 
-      try{
-	/// <summary>
-	///   Configuration Loading
-	/// </summary>
-	ConfigurationDocument=new XmlDocument();
-	ConfigurationDocument.Load("PrismConfig.xml");
-	Decimal TaxValue=ConfigurationRetrieve<Decimal>(ConfigurationDocument,"//gov/tax/vat/text()");
-	ConfigurationTax.Add("vat",TaxValue);
-	Decimal TaxValue8=ConfigurationRetrieve<Decimal>(ConfigurationDocument,"//gov/tax/other/text()");
-	ConfigurationTax.Add("other",TaxValue8);
+#if true
+      try
+      {
+          /// <summary>
+          ///   Configuration Loading
+          /// </summary>
+          ConfigurationDocument = new XmlDocument();
+          ConfigurationDocument.Load("PrismConfig.xml");
+          Decimal TaxValue = ConfigurationRetrieve<Decimal>(ConfigurationDocument, "//gov/tax/vat/text()");
+          ConfigurationTax.Add("vat", TaxValue);
+          Decimal TaxValue8 = ConfigurationRetrieve<Decimal>(ConfigurationDocument, "//gov/tax/other/text()");
+          ConfigurationTax.Add("other", TaxValue8);
 
-	string Temporary=ConfigurationRetrieve<string>(ConfigurationDocument,"//app/company/name/text()");
-	ConfigurationApp.Add("name",Temporary);
-	Temporary=ConfigurationRetrieve<string>(ConfigurationDocument,"//app/company/address/text()");
-	ConfigurationApp.Add("address",Temporary);
-	Temporary=ConfigurationRetrieve<string>(ConfigurationDocument,"//app/company/city/text()");
-	ConfigurationApp.Add("city",Temporary);
-	Temporary=ConfigurationRetrieve<string>(ConfigurationDocument,"//app/company/zip/text()");
-	ConfigurationApp.Add("zip",Temporary);
-	Temporary=ConfigurationRetrieve<string>(ConfigurationDocument,"//app/company/country/text()");
-	ConfigurationApp.Add("country",Temporary);
-	Temporary=ConfigurationRetrieve<string>(ConfigurationDocument,"//app/server/servername/text()");
-	ConfigurationApp.Add("servername",Temporary);
+          string Temporary = ConfigurationRetrieve<string>(ConfigurationDocument, "//app/company/name/text()");
+          ConfigurationApp.Add("name", Temporary);
+          Temporary = ConfigurationRetrieve<string>(ConfigurationDocument, "//app/company/address/text()");
+          ConfigurationApp.Add("address", Temporary);
+          Temporary = ConfigurationRetrieve<string>(ConfigurationDocument, "//app/company/city/text()");
+          ConfigurationApp.Add("city", Temporary);
+          Temporary = ConfigurationRetrieve<string>(ConfigurationDocument, "//app/company/zip/text()");
+          ConfigurationApp.Add("zip", Temporary);
+          Temporary = ConfigurationRetrieve<string>(ConfigurationDocument, "//app/company/country/text()");
+          ConfigurationApp.Add("country", Temporary);
+          Temporary = ConfigurationRetrieve<string>(ConfigurationDocument, "//app/server/servername/text()");
+          ConfigurationApp.Add("servername", Temporary);
 
-	this.connectionstring = "Server="+ConfigurationApp["servername"]+";Database=Pryzmat_2012;User=Kris;Trusted_Connection=true;";
-	this.selcmdinvoice = "Select * from Invoices;";
-	this.selcmdclients = "Select * from Clients;";
-	/// <summary>
-	///   Mysql Connecting
-	/// </summary>
-	Connection=new SqlConnection(connectionstring);
-	Connection.Open();
+          this.connectionstring = "Server=" + ConfigurationApp["servername"] + ";Database=Pryzmat;User=Pryzmat1;Trusted_Connection=true;";
+          this.selcmdinvoice = "Select * from Invoices;";
+          this.selcmdclients = "Select * from Clients;";
+          /// <summary>
+          ///   Mysql Connecting
+          /// </summary>
+          Connection = new SqlConnection(connectionstring);
+          Connection.Open();
 
-	if(Connection.State==ConnectionState.Open)
-	  {
-	    StatusSet("Połączenie z bazą danych ustanowione");
-	  }
+          if (Connection.State == ConnectionState.Open)
+          {
+              StatusSet("Połączenie z bazą danych ustanowione");
+          }
 
-	AdapterInvoices=new SqlDataAdapter(selcmdinvoice,Connection);
-	AdapterClients=new SqlDataAdapter(selcmdclients,Connection);
+          AdapterInvoices = new SqlDataAdapter(selcmdinvoice, Connection);
+          AdapterClients = new SqlDataAdapter(selcmdclients, Connection);
 
-	BuildInvoices=new SqlCommandBuilder(AdapterInvoices);
-	BuildClients=new SqlCommandBuilder(AdapterClients);
+          BuildInvoices = new SqlCommandBuilder(AdapterInvoices);
+          BuildClients = new SqlCommandBuilder(AdapterClients);
 
-        AdapterInvoices.Fill(TableInvoices);
-	AdapterClients.Fill(TableClients);
-	
-	SourceInvoices.DataSource=TableInvoices;
-	SourceClients.DataSource=TableClients;
+          AdapterInvoices.Fill(TableInvoices);
+          AdapterClients.Fill(TableClients);
 
-	this.dataGridView1.DataSource=SourceInvoices;
-	this.dataGridView2.DataSource=SourceClients;
-      
-      }catch(Exception E)
-	{
-	  this.StatusReport(E.ToString());
-	}
+          SourceInvoices.DataSource = TableInvoices;
+          SourceClients.DataSource = TableClients;
+
+          this.dataGridView1.DataSource = SourceInvoices;
+          this.dataGridView2.DataSource = SourceClients;
+
+      }
+      catch (Exception E)
+      {
+          this.StatusReport(E.ToString());
+      } 
+#endif
     }
 
     private void Form1_Resize(object sender, EventArgs e)

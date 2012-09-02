@@ -2,14 +2,20 @@
 <prismconfig>
   <gov>
     <tax>
-      <vat>0.23</vat>
-      <other>0.08</other>
+      <vat>23</vat>
+      <other>8</other>
     </tax> <!-- w procentach! -->
   </gov>
   <app>
-    <address>Pułaskiego 37</address>
-    <city>Jelenia Góra</city>
-    <country>Poland</country>
-    <zip>58-560</zip>
+    <company>
+      <name>Pryzmat sp. z o.o.</name>
+      <address>Pułaskiego 37</address>
+      <city>Jelenia Góra</city>
+      <country>Polska</country>
+      <zip>58-560</zip>
+    </company>
+    <server>
+      <servername>PS</servername>
+    </server>
   </app>
 </prismconfig>

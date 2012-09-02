@@ -56,3 +56,13 @@ D:\Firma\Faktury\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.DialogInvo
 D:\Firma\Faktury\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
 D:\Firma\Faktury\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
 D:\Firma\Faktury\Prism Invoice\obj\x86\Debug\Prism Invoice.csproj.GenerateResource.Cache
+D:\Firma\Faktury\Pryzmat-Invoice\obj\x86\Debug\Prism Invoice.exe
+D:\Firma\Faktury\Pryzmat-Invoice\obj\x86\Debug\Prism Invoice.pdb
+D:\Firma\Faktury\Pryzmat-Invoice\bin\Debug\Prism Invoice.exe
+D:\Firma\Faktury\Pryzmat-Invoice\bin\Debug\Prism Invoice.pdb
+D:\Firma\Faktury\Pryzmat-Invoice\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Firma\Faktury\Pryzmat-Invoice\obj\x86\Debug\WindowsFormsApplication1.DialogClients.resources
+D:\Firma\Faktury\Pryzmat-Invoice\obj\x86\Debug\WindowsFormsApplication1.DialogInvoice.resources
+D:\Firma\Faktury\Pryzmat-Invoice\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+D:\Firma\Faktury\Pryzmat-Invoice\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Firma\Faktury\Pryzmat-Invoice\obj\x86\Debug\Prism Invoice.csproj.GenerateResource.Cache

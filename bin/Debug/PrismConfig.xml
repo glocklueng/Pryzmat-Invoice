@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<prismconfig>
+  <gov>
+    <tax>
+      <vat>23</vat>
+      <other>8</other>
+    </tax> <!-- w procentach! -->
+  </gov>
+  <app>
+    <company>
+      <name>Pryzmat sp. z o.o.</name>
+      <address>Pułaskiego 37</address>
+      <city>Jelenia Góra</city>
+      <country>Polska</country>
+      <zip>58-560</zip>
+    </company>
+    <server>
+      <servername>PS</servername>
+    </server>
+  </app>
+</prismconfig>

@@ -1,0 +1,58 @@
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\bin\Debug\Prism Invoice.exe
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\bin\Debug\Prism Invoice.pdb
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\obj\x86\Debug\Prism Invoice.exe
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\obj\x86\Debug\Prism Invoice.pdb
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\obj\x86\Debug\Prism Invoice.exe
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\obj\x86\Debug\Prism Invoice.pdb
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\bin\Debug\Prism Invoice.exe
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\bin\Debug\Prism Invoice.pdb
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\Prism Invoice\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\Prism Invoice.exe
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\Prism Invoice.pdb
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\bin\Debug\Prism Invoice.exe
+C:\Users\Piotr\Documents\Visual Studio 2010\Projects\Prism Invoice\bin\Debug\Prism Invoice.pdb
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\Prism Invoice.exe
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\Prism Invoice.pdb
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\bin\Debug\Prism Invoice.exe
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\bin\Debug\Prism Invoice.pdb
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.DialogInvoice.resources
+C:\Users\Piotro\Documents\Visual Studio 2010\Projects\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.DialogClients.resources
+C:\Documents and Settings\Kris\Moje dokumenty\Visual Studio 2008\Projects\Invoice\Prism Invoice\obj\x86\Debug\Prism Invoice.exe
+C:\Documents and Settings\Kris\Moje dokumenty\Visual Studio 2008\Projects\Invoice\Prism Invoice\obj\x86\Debug\Prism Invoice.pdb
+C:\Documents and Settings\Kris\Moje dokumenty\Visual Studio 2008\Projects\Invoice\Prism Invoice\bin\Debug\Prism Invoice.exe
+C:\Documents and Settings\Kris\Moje dokumenty\Visual Studio 2008\Projects\Invoice\Prism Invoice\bin\Debug\Prism Invoice.pdb
+C:\Documents and Settings\Kris\Moje dokumenty\Visual Studio 2008\Projects\Invoice\Prism Invoice\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Kris\Moje dokumenty\Visual Studio 2008\Projects\Invoice\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.DialogClients.resources
+C:\Documents and Settings\Kris\Moje dokumenty\Visual Studio 2008\Projects\Invoice\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.DialogInvoice.resources
+C:\Documents and Settings\Kris\Moje dokumenty\Visual Studio 2008\Projects\Invoice\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Documents and Settings\Kris\Moje dokumenty\Visual Studio 2008\Projects\Invoice\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Documents and Settings\Kris\Moje dokumenty\Visual Studio 2008\Projects\Invoice\Prism Invoice\obj\x86\Debug\Prism Invoice.csproj.GenerateResource.Cache
+D:\Firma\Faktury\Prism Invoice\obj\x86\Debug\Prism Invoice.exe
+D:\Firma\Faktury\Prism Invoice\obj\x86\Debug\Prism Invoice.pdb
+D:\Firma\Faktury\Prism Invoice\bin\Debug\Prism Invoice.exe
+D:\Firma\Faktury\Prism Invoice\bin\Debug\Prism Invoice.pdb
+D:\Firma\Faktury\Prism Invoice\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Firma\Faktury\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.DialogClients.resources
+D:\Firma\Faktury\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.DialogInvoice.resources
+D:\Firma\Faktury\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+D:\Firma\Faktury\Prism Invoice\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Firma\Faktury\Prism Invoice\obj\x86\Debug\Prism Invoice.csproj.GenerateResource.Cache

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<prismconfig>
+  <gov>
+    <tax>
+      <vat>23</vat>
+      <other>8</other>
+    </tax> <!-- w procentach! -->
+  </gov>
+  <app>
+    <address>Pułaskiego 37</address>
+    <city>Jelenia Góra</city>
+    <country>Poland</country>
+    <zip>58-560</zip>
+  </app>
+</prismconfig>

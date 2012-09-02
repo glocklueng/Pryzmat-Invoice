@@ -41,7 +41,7 @@ namespace WindowsFormsApplication1
             {
                 int offset = 65;
                 ConvertPrism db = new ConvertPrism();
-                decimal tax = Math.Round(serviceCost * 0.23m, 2);
+                decimal tax = Math.Round(serviceCost * 0.23m, 2);  // TU JEST BUGGG
                 //Cntr num:
                 e.Graphics.DrawString("Nr " + this.contractNum + "/" + DateTime.Now.ToShortDateString().Substring(5, 2) + "/" + DateTime.Now.ToShortDateString().Substring(0, 4), new Font("Trebuchet MS", 12), Brushes.Black, new PointF(90, 63));
                 e.Graphics.DrawString("Data sprzedaży: " + this.selldate, new Font("Trebuchet MS", 11), Brushes.Black, new PointF(520, 63));
@@ -77,17 +77,17 @@ namespace WindowsFormsApplication1
                 e.Graphics.DrawString(infoaux, new Font("Trebuchet MS", 11), Brushes.Black, new PointF(500, 410));
                 //
                 Math.Round(serviceCost, 2);
-                e.Graphics.DrawString(this.serviceCost.ToString(), new Font("Trebuchet MS", 11), Brushes.Black, new RectangleF(367 + 2 * offset - 45, 474 + offset + 30, 300, 100));
-                e.Graphics.DrawString(this.serviceCost.ToString(), new Font("Trebuchet MS", 11), Brushes.Black, new RectangleF(367 + 2 * offset - 45, 566 + offset + 96, 300, 100));
+                e.Graphics.DrawString(this.serviceCost.ToString(), new Font("Trebuchet MS", 11), Brushes.Black, new RectangleF(368 + 2 * offset - 45, 474 + offset + 30, 300, 100));
+                e.Graphics.DrawString(this.serviceCost.ToString(), new Font("Trebuchet MS", 11), Brushes.Black, new RectangleF(368 + 2 * offset - 45, 566 + offset + 96, 300, 100));
 
-                e.Graphics.DrawString(tax.ToString(), new Font("Trebuchet MS", 11), Brushes.Black, new PointF(367 + 3 * offset + 20, 474 + offset + 30));
-                e.Graphics.DrawString(tax.ToString(), new Font("Trebuchet MS", 11), Brushes.Black, new PointF(367 + 3 * offset + 20, 566 + offset + 96));
+                e.Graphics.DrawString(tax.ToString(), new Font("Trebuchet MS", 11), Brushes.Black, new PointF(372 + 3 * offset + 20, 474 + offset + 30));
+                e.Graphics.DrawString(tax.ToString(), new Font("Trebuchet MS", 11), Brushes.Black, new PointF(372 + 3 * offset + 20, 566 + offset + 96));
 
-                e.Graphics.DrawString(servsymbol, new Font("Trebuchet MS", 11), Brushes.Black, new PointF(375, 474 + offset + 30));
-                e.Graphics.DrawString((serviceCost + tax).ToString(), new Font("Trebuchet MS", 11), Brushes.Black, new PointF(530 + 2 * offset + 10, 474 + offset + 30));
-                e.Graphics.DrawString((serviceCost + tax).ToString(), new Font("Trebuchet MS", 11), Brushes.Black, new PointF(530 + 2 * offset + 10, 566 + offset + 96)); //y
-                e.Graphics.DrawString("23%", new Font("Trebuchet MS", 11), Brushes.Black, new PointF(320 + 3 * offset + 33, 474 + offset + 30));
-                e.Graphics.DrawString("23%", new Font("Trebuchet MS", 11), Brushes.Black, new PointF(320 + 3 * offset + 33, 566 + offset + 96));
+                e.Graphics.DrawString(servsymbol, new Font("Trebuchet MS", 11), Brushes.Black, new PointF(380, 474 + offset + 30));
+                e.Graphics.DrawString((serviceCost + tax).ToString(), new Font("Trebuchet MS", 11), Brushes.Black, new PointF(530 + 2 * offset + 15, 474 + offset + 30));
+                e.Graphics.DrawString((serviceCost + tax).ToString(), new Font("Trebuchet MS", 11), Brushes.Black, new PointF(530 + 2 * offset + 15, 566 + offset + 96)); //y
+                e.Graphics.DrawString("23%", new Font("Trebuchet MS", 11), Brushes.Black, new PointF(320 + 3 * offset + 35, 474 + offset + 30));
+                e.Graphics.DrawString("23%", new Font("Trebuchet MS", 11), Brushes.Black, new PointF(320 + 3 * offset + 35, 566 + offset + 96));
 
                 e.Graphics.DrawString(this.serviceDesc.ToString(), new Font("Trebuchet MS", 10), Brushes.Black, new RectangleF(57, 474 + offset + 30, 300, 100));
                 //e.Graphics.DrawString(db.ChangeX(serviceCost.ToString()), new Font("Trebuchet MS", 11), Brushes.Blue, new PointF(100, 275));

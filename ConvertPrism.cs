@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Globalization;
 using System.Text;
 
 namespace WindowsFormsApplication1
@@ -12,14 +13,14 @@ namespace WindowsFormsApplication1
         public string Convert(string toDouble)
         {
             //Nieruszane w stosunku do wersji 0
-
+            string currentCulture = System.Threading.Thread.CurrentThread.CurrentCulture.Name;
+            CultureInfo ci = new CultureInfo(currentCulture);
             string kwota = null;
             string WorkingString = null;
-
-            string wogroszy = toDouble.Substring(0, toDouble.IndexOf('.', 0));
+            string wogroszy = toDouble.Substring(0, toDouble.IndexOf(ci.NumberFormat.NumberDecimalSeparator, 0));
             string grosze = "";
-            grosze += toDouble[toDouble.IndexOf(',') + 1];
-            grosze += toDouble[toDouble.IndexOf(',') + 2];
+            grosze += toDouble[toDouble.IndexOf(ci.NumberFormat.NumberDecimalSeparator) + 1];
+            grosze += toDouble[toDouble.IndexOf(ci.NumberFormat.NumberDecimalSeparator) + 2];
 
             string post = "milionów";
 

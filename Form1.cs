@@ -81,7 +81,7 @@ namespace WindowsFormsApplication1
           Temporary = ConfigurationRetrieve<string>(ConfigurationDocument, "//app/server/servername/text()");
           ConfigurationApp.Add("servername", Temporary);
 
-          this.connectionstring = "Server=" + ConfigurationApp["servername"] + ";Database=Pryzmat;User=Pryzmat1;Trusted_Connection=true;";
+          this.connectionstring = "Server=" + ConfigurationApp["servername"] + ";Database=Pryzmat_2013;User=Pryzmat1;Trusted_Connection=true;";
           this.selcmdinvoice = "Select * from Invoices;";
           this.selcmdclients = "Select * from Clients;";
           /// <summary>

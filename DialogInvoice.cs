@@ -11,7 +11,7 @@ namespace WindowsFormsApplication1
 {
   public partial class DialogInvoice : Form
   {
-    public string ClientName,Netto,Description,DatePay,DateSell,TypeOfPay,Symbol,Brutto;
+    public string ClientName,Netto,Description,DatePay,DateSell,TypeOfPay,Symbol,Brutto,YearSell;
 
     public DialogInvoice()
     {
@@ -59,7 +59,7 @@ namespace WindowsFormsApplication1
               month2 += "0" + dateTimePicker2.Value.Date.Month.ToString();
           }
       
-
+      this.YearSell = dateTimePicker1.Value.Date.Year.ToString();
       this.DatePay = dateTimePicker1.Value.Date.Day.ToString()+"."+month1+"."+dateTimePicker1.Value.Date.Year.ToString();
       this.DateSell =dateTimePicker2.Value.Date.Day.ToString()+"."+month2+"."+dateTimePicker2.Value.Date.Year.ToString();
       this.TypeOfPay = listBox2.SelectedItem.ToString();

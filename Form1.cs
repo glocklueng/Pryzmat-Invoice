@@ -454,9 +454,10 @@ namespace WindowsFormsApplication1
 	    string year = InvoiceDialog.YearSell;
 	    
 	    SqlCommand cmd = new SqlCommand("SELECT COUNT(*) FROM Invoices WHERE datesell like '".year."')", Connection);
-	    Connection.Open();
+	    SqlConnection tempc = new SqlConnection(connectionstring);
+	    tempc.Open();
 	    int yrcount = cmd.ExecuteScalar();
-	    Conneciton.Close();
+	    tempc.Close();
 	    
 	    Int32 RowCount = dataGridView1.RowCount;
 	    string netto;

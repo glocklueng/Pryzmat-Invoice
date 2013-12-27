@@ -448,13 +448,20 @@ namespace WindowsFormsApplication1
 	{
 	  if(this.tabControl1.SelectedTab==tabPage2){
 	    Int32 selectedRowCount = dataGridView1.Rows.GetRowCount(DataGridViewElementStates.Selected);
+	    DialogInvoice InvoiceDialog = new DialogInvoice(row.Cells["name"].Value.ToString());
+	    DialogResult Res = InvoiceDialog.ShowDialog(this);
+ 
+	    string year = InvoiceDialog.YearSell;
+	    
+	    SqlCommand cmd = new SqlCommand("SELECT COUNT(*) FROM Invoices WHERE datesell like '".year."')", Connection);
+	    Connection.Open();
+	    int yrcount = cmd.ExecuteScalar();
+	    Conneciton.Close();
+	    
 	    Int32 RowCount = dataGridView1.RowCount;
 	    string netto;
 
 	    DataGridViewRow row = dataGridView2.SelectedRows[0]; //Wybieramy pierwszą wybraną osobe z bazy
-
-	    DialogInvoice InvoiceDialog = new DialogInvoice(row.Cells["name"].Value.ToString());
-	    DialogResult Res = InvoiceDialog.ShowDialog(this);
 
 	    if (InvoiceDialog.Brutto == "True")
 	      {
@@ -468,7 +475,7 @@ namespace WindowsFormsApplication1
 		netto = InvoiceDialog.Netto;
 	      }
 
-	    string[] Row = new string[] { null, row.Cells["id"].Value.ToString(), netto, InvoiceDialog.Description, InvoiceDialog.DateSell, InvoiceDialog.DatePay, InvoiceDialog.TypeOfPay, InvoiceDialog.Symbol, RowCount.ToString() };
+	    string[] Row = new string[] { null, row.Cells["id"].Value.ToString(), netto, InvoiceDialog.Description, InvoiceDialog.DateSell, InvoiceDialog.DatePay, InvoiceDialog.TypeOfPay, InvoiceDialog.Symbol, yrcount };
 
 	    if(Res==DialogResult.Yes){
 	      ((DataTable)SourceInvoices.DataSource).Rows.Add(Row);
